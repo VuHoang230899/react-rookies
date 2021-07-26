@@ -1,0 +1,158 @@
+/* Header */
+
+.clearfix {
+  clear: both;
+}
+
+header.masthead {
+  background-image: url(../background.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.page-heading {
+  color: #fff;
+  font-size: 32px;
+  text-align: center;
+  padding: 3em 0px;
+}
+
+header.masthead .overlay {
+  background-color: #313a2c;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.5;
+  width: 100%;
+  height: 100%;
+}
+
+.masthead .container {
+  position: relative;
+}
+
+.sub-heading {
+  font-size: 1.5rem;
+  line-height: 1.1;
+}
+
+/* navbar */
+
+.navbar {
+  margin: 0 15%;
+  padding: 1em;
+}
+
+.navbar .container .navbar-brand img {
+  width: 130px;
+}
+
+.navbar .container .navbar-brand {
+  float: left;
+}
+
+.navbar .container .navbar-collapse {
+  float: right;
+}
+
+ul.navbar-nav {
+  list-style-type: none;
+  font-weight: bold;
+}
+
+ul.navbar-nav li {
+  float: left;
+}
+
+ul.navbar-nav li a {
+  color: #fff;
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+ul.navbar-nav li a:hover {
+  color: rgb(255, 255, 255, 0.8);
+}
+
+/* search-bar */
+
+.search-bar {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  margin: 0 20px;
+}
+
+.search-bar input {
+  border: 2px solid #ccc;
+  border-radius: 12px;
+  margin: 3px 5px;
+  padding: 4px;
+  width: 78%;
+}
+.search-bar .search-button {
+  border: 0;
+  border-radius: 50%;
+  background-color: #ccc;
+  margin: 3px 5px;
+  padding: 5px;
+}
+.search-bar .search-button .fa-search {
+  color: #fff;
+}
+
+/* main content */
+
+/* View all post button */
+/* main.main-content button.view-posts-button {
+  background-color: rgb(25, 115, 175);
+  border: 0;
+  color: #fff;
+  float: right;
+  margin: 0 20px;
+  padding: 10px 10px;
+  font-size: 15px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.view-posts-button .fa-arrow-right {
+  font-size: 10px;
+} */
+
+/* Footer */
+footer.footer {
+  margin: 1em 40%;
+  padding: 1em 2em;
+}
+
+.contact .contact-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5px;
+  line-height: 1.1;
+}
+
+.contact .contact-list .circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: black;
+  height: 3em;
+  width: 3em;
+}
+.contact .contact-list .circle a i {
+  color: #fff;
+  font-size: 1.5em;
+}
+
+.contact .copy-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  line-height: 5;
+  color: rgb(165, 164, 164);
+}

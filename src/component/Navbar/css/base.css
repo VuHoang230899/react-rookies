@@ -1,0 +1,35 @@
+body {
+  font-family: sans-serif, "Trebuchet MS", Tahoma, Arial;
+  font-size: 100%;
+}
+
+p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 0.875em;
+  line-height: 1.75em;
+}
+
+h1 {
+  font-size: 2.5em;
+  line-height: 1.5em;
+  font-weight: normal;
+}
+
+h2,
+h3 {
+  font-size: 2.125em;
+  font-weight: lighter;
+}
+
+h3 {
+  font-size: 1.875em;
+}
+
+ul {
+  font-size: 0.875em;
+  list-style-position: inside;
+}
+
+ol {
+  font-size: 0.875em;
+}

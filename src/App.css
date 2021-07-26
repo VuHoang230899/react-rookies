@@ -1,0 +1,19 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app-container .top-nav {
+  display: flex;
+  list-style-type: none;
+}
+
+.top-nav .top-nav--list {
+  margin: 15px;
+}
+
+.top-nav .top-nav--list a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #fff;
+}
